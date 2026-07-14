@@ -8,12 +8,19 @@ import Result from "./pages/Result";
 function App() {
   return (
     <BrowserRouter>
+
       <Routes>
+
         <Route path="/" element={<Home />} />
+
         <Route path="/setup" element={<Setup />} />
+
         <Route path="/interview" element={<Interview />} />
+
         <Route path="/result" element={<Result />} />
+
       </Routes>
+
     </BrowserRouter>
   );
 }
